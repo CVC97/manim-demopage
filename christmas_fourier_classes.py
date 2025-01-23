@@ -20,8 +20,8 @@ class IncomingSignal(Mobject):
         rectangle = Rectangle(height = height, width = width, stroke_width = 2, color = main_color).move_to(position)
         separator = Line(start = position - np.array([width/2, 0, 0]), end = position + np.array([width/2, 0, 0]), stroke_width = 1, color = main_color)
         self.add(rectangle, separator)
-        text_real_space = Tex(r"Ortsraum", font_size = 24, color = main_color).next_to(separator, 0.5*DOWN + LEFT).shift(height/2 * UP).shift(width * RIGHT)
-        text_fourier_space = Tex(r"Frequenzraum", font_size = 24, color = main_color).next_to(separator, 0.5*DOWN + LEFT).shift(width * RIGHT)
+        text_real_space = Tex(r"real space", font_size = 24, color = main_color).next_to(separator, 0.5*DOWN + LEFT).shift(height/2 * UP).shift(width * RIGHT)
+        text_fourier_space = Tex(r"fourier space", font_size = 24, color = main_color).next_to(separator, 0.5*DOWN + LEFT).shift(width * RIGHT)
         self.add(text_real_space, text_fourier_space)
         # number plane for the untransformed signal
         self.signal_npla = NumberPlane(

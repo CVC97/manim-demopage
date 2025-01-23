@@ -55,3 +55,10 @@
 
 
 # Data Science
+
+<details>
+  <summary>Video: Pointers and Memory </summary>
+	<div>
+		<video controls width="90%" src="animations/pointer_Scene.mp4" loop="true"></video>
+	</div>
+</details>

@@ -9,7 +9,7 @@
 <details>
   <summary>Video: Riemann Sum </summary>
 	<div>
-		<video controls width="90%" src="animations/integration_Scene.mp4" loop="true"></video>
+		<video controls width="90%" src="animations/integration_index_Scene.mp4" loop="true"></video>
 	</div>
 </details>
 
